@@ -184,3 +184,46 @@ section.ejercicio6 {
 section.ejercicio6 img {
   border: 2px dashed black;
 }
+
+header.ejercicio7 h1 {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  padding: 20px 20px;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+section.ejercicio7 {
+  display: flex;
+}
+
+section.ejercicio7 article:first-of-type {
+  background-color: turquoise;
+  color: black;
+}
+section.ejercicio7 article:nth-of-type(2) {
+  background-color: rgb(179, 245, 179);
+  color: black;
+}
+section.ejercicio7 article:nth-of-type(3) {
+  background-color: rgb(156, 120, 165);
+  color: black;
+}
+
+section.ejercicio7 article img {
+  padding: 20px;
+  max-width: 100%;
+}
+section.ejercicio7 article h2 {
+  text-align: center;
+}
+section.ejercicio7 article p {
+  padding: 15px;
+  text-align: justify;
+}
+
+section.ejercicio7 article {
+  max-width: 33.33%;
+}
